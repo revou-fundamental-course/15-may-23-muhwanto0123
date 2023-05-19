@@ -1,0 +1,33 @@
+.example-square {
+    border: 1px solid red;
+    height: 20px;
+    width: 20px;
+}
+header {
+    background: rgb(9, 133, 216);
+    text-align: center;
+    padding: 20px 20px;
+}
+.title {
+    font-weight: bold;
+    color: white;
+}
+.subtitle {
+    color: gray;
+    font-size: small;
+}
+.card {
+    background: white;
+
+}
+.figure {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
