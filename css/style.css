@@ -1,33 +1,113 @@
-.example-square {
-    border: 1px solid red;
-    height: 20px;
-    width: 20px;
+.container {
+  text-align: center;
 }
-header {
-    background: rgb(9, 133, 216);
-    text-align: center;
-    padding: 20px 20px;
-}
-.title {
-    font-weight: bold;
-    color: white;
-}
-.subtitle {
-    color: gray;
-    font-size: small;
-}
-.card {
-    background: white;
-
-}
-.figure {
-    min-height: 50px;
+.card-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+.card {
+    width: 1250px; /* Sesuaikan lebar kartu dengan kebutuhan Anda */
+    /* Sesuaikan tinggi kartu dengan kebutuhan Anda */
+    margin-top: 1em; /* Memberikan jarak sejajar satu baris dari atas */
+    
 }
-input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 5px;
+
+.card-header {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-text-a {
+  margin-top: 10px;
+}
+
+.card-text-b {
+  margin-top: -10px;
+}
+
+.coba-a {
+  text-align: center;
+  background-color: rgb(44, 45, 48);
+  color:white;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.example-square {
+  border: 1px solid red;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 50px;
+
+}
+
+.letter {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.top-left {
+  top: -20px;
+  left: -20px;
+}
+
+.top-right {
+  top: -20px;
+  right: -20px;
+}
+
+.bottom-left {
+  bottom: -20px;
+  left: -20px;
+}
+
+.bottom-right {
+  bottom: -20px;
+  right: -20px;
+}
+
+
+.bujur-sangkar {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.rumus-luas-persegi {
+  text-align: center;
+}
+
+.Judul-LP {
+  text-align: center;
+}
+
+.inputan {
+  position: relative;
+}
+
+.tombol-hasil {
+  text-align: center;
+}
+
+.tombol-reset {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
